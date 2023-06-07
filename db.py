@@ -5,7 +5,7 @@ try:
         "dbname": "gpon",
         "user": "gpon",
         "password": "Cantv2021",
-        "host": "200.44.45.148",
+        "host": "200.44.45.152",
         "port": 5432
     }
     conexion = psycopg2.connect(**credenciales)
