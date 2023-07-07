@@ -1,0 +1,201 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 200.44.45.149:80
+DEBUG:urllib3.connectionpool:http://200.44.45.149:80 "POST /api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo=7014027783&payAccount=0&productID=131&sequenceId=0&serialNo=0&subscriberID=mbo-bras-01--172.-01001101600785@aba&serial_modem=48575443E5094DA6 HTTP/1.1" 200 7
+DEBUG:root:<Response [200]>
+INFO:root:7014027783 se ha creado exitosamente en el AAA
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 200.44.45.149:80
+DEBUG:urllib3.connectionpool:http://200.44.45.149:80 "POST /api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo=7014042528&payAccount=0&productID=133&sequenceId=0&serialNo=0&subscriberID=mbo-bras-01--172.-01001101600783@aba&serial_modem=48575443E50BEFA6 HTTP/1.1" 200 7
+DEBUG:root:<Response [200]>
+INFO:root:7014042528 se ha creado exitosamente en el AAA
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 200.44.45.149:80
+DEBUG:urllib3.connectionpool:http://200.44.45.149:80 "POST /api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo=7014024238&payAccount=0&productID=131&sequenceId=0&serialNo=0&subscriberID=mbo-bras-01--172.-01001101600780@aba&serial_modem=48575443E5093AA6 HTTP/1.1" 200 7
+DEBUG:root:<Response [200]>
+INFO:root:7014024238 se ha creado exitosamente en el AAA
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 200.44.45.149:80
+DEBUG:urllib3.connectionpool:http://200.44.45.149:80 "POST /api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo=7014024231&payAccount=0&productID=131&sequenceId=0&serialNo=0&subscriberID=mbo-bras-01--172.-01001101600782@aba&serial_modem=48575443E50BE0A6 HTTP/1.1" 200 7
+DEBUG:root:<Response [200]>
+INFO:root:7014024231 se ha creado exitosamente en el AAA
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 200.44.45.149:80
+DEBUG:urllib3.connectionpool:http://200.44.45.149:80 "POST /api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo=7014024191&payAccount=0&productID=131&sequenceId=0&serialNo=0&subscriberID=mbo-bras-01--172.-01001101600784@aba&serial_modem=48575443E50791A6 HTTP/1.1" 200 7
+DEBUG:root:<Response [200]>
+INFO:root:7014024191 se ha creado exitosamente en el AAA
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 200.44.45.149:80
+DEBUG:urllib3.connectionpool:http://200.44.45.149:80 "POST /api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo=7014024225&payAccount=0&productID=131&sequenceId=0&serialNo=0&subscriberID=mbo-bras-01--172.-01001101600781@aba&serial_modem=48575443E50BDEA6 HTTP/1.1" 200 7
+DEBUG:root:<Response [200]>
+INFO:root:7014024225 se ha creado exitosamente en el AAA
+DEBUG:paramiko.transport:starting thread (client mode): 0x86d1a430
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0--
+INFO:paramiko.transport:Connected (version 2.0, client -)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha256'] server key:['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa', 'x509v3-ssh-rsa'] client encrypt:['AEAD_AES_256_GCM', 'aes256-gcm@openssh.com', 'AEAD_AES_128_GCM', 'aes128-gcm@openssh.com', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr'] server encrypt:['AEAD_AES_256_GCM', 'aes256-gcm@openssh.com', 'AEAD_AES_128_GCM', 'aes128-gcm@openssh.com', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:kex engine KexGexSHA256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 10.125.20.183: b'bdce992d96a0fe99515b6f22b71b7056'
+DEBUG:paramiko.transport:Trying discovered key b'6fdd53bfec956e15acf063a1e917d43c' in /home/cantv/.ssh/id_rsa
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) failed.
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'\r\nWarning: Negotiated identity key for server authentication is not safe. It is recommended that you disable the insecure algorithm or upgrade the client.\r\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:root:
+
+  Huawei Integrated Access Software (MA5801).
+  Copyright(C) Huawei Technologies Co., Ltd. 2002-2021. All rights reserved.
+
+  -----------------------------------------------------------------------------
+  User last login information:
+  -----------------------------------------------------------------------------
+  Access Type : SSH
+  IP-Address  : 10.120.28.213
+  Login  Time : 03-07-2023 01:56:21-04:00
+  Logout Time : --
+  -----------------------------------------------------------------------------
+  -----------------------------------------------------------------------------
+  All user fail login information:
+  -----------------------------------------------------------------------------
+  Access Type IP-Address           Time                          Login Times
+  -----------------------------------------------------------------------------
+  SSH         200.44.46.48         08-06-2023 18:01:14-04:00               3
+  SSH         10.120.28.213        15-06-2023 00:09:21-04:00               1
+  -----------------------------------------------------------------------------
+
+pfi-olt-00>enable 
+
+pfi-olt-00#config 
+
+pfi-olt-00(config)#undo smart 
+  Interactive function is disabled
+
+pfi-olt-00(config)#undo interactive 
+  Interactive function is disabled
+
+pfi-olt-00(config)#interface gpon 0/1 
+
+pfi-olt-00(config-if-gpon-0/1)#ont add 0 6          sn-auth 48575443E5094DA6 omc [1Di ont-lineprofile-id  9  ont-srvprofile-id 4 desc '25350' 
+  Number of ONTs that can be added: 1, success: 1
+  PortID :0, ONTID :6
+
+pfi-olt-00(config-if-gpon-0/1)#ont tr069-server-config 0 6          profile-id 1 [1D 
+
+pfi-olt-00(config-if-gpon-0/1)#
+
+pfi-olt-00(config-if-gpon-0/1)#ont reset 0 6         
+  Failure: The ONT is not online
+
+pfi-olt-00(config-if-gpon-0/1)#quit 
+
+pfi-olt-00(config)#interface gpon 0/1 
+
+pfi-olt-00(config-if-gpon-0/1)#ont add 0 4          sn-auth 48575443E50BEFA6 omc [1Di ont-lineprofile-id  11  ont-srvprofile-id 4 desc '25348' 
+  Number of ONTs that can be added: 1, success: 1
+  PortID :0, ONTID :4
+
+pfi-olt-00(config-if-gpon-0/1)#ont tr069-server-config 0 4          profile-id 1 [1D 
+
+pfi-olt-00(config-if-gpon-0/1)#
+
+pfi-olt-00(config-if-gpon-0/1)#ont reset 0 4         
+  Failure: The ONT is not online
+
+pfi-olt-00(config-if-gpon-0/1)#quit 
+
+pfi-olt-00(config)#interface gpon 0/1 
+
+pfi-olt-00(config-if-gpon-0/1)#ont add 0 1          sn-auth 48575443E5093AA6 omc [1Di ont-lineprofile-id  9  ont-srvprofile-id 4 desc '25345' 
+  Number of ONTs that can be added: 1, success: 1
+  PortID :0, ONTID :1
+
+pfi-olt-00(config-if-gpon-0/1)#ont tr069-server-config 0 1          profile-id 1 [1D 
+
+pfi-olt-00(config-if-gpon-0/1)#
+
+pfi-olt-00(config-if-gpon-0/1)#ont reset 0 1         
+  Failure: The ONT is not online
+
+pfi-olt-00(config-if-gpon-0/1)#quit 
+
+pfi-olt-00(config)#interface gpon 0/1 
+
+pfi-olt-00(config-if-gpon-0/1)#ont add 0 3          sn-auth 48575443E50BE0A6 omc [1Di ont-lineprofile-id  9  ont-srvprofile-id 4 desc '25347' 
+  Number of ONTs that can be added: 1, success: 1
+  PortID :0, ONTID :3
+
+pfi-olt-00(config-if-gpon-0/1)#ont tr069-server-config 0 3          profile-id 1 [1D 
+
+pfi-olt-00(config-if-gpon-0/1)#
+
+pfi-olt-00(config-if-gpon-0/1)#ont reset 0 3         
+  Failure: The ONT is not online
+
+pfi-olt-00(config-if-gpon-0/1)#quit 
+
+pfi-olt-00(config)#interface gpon 0/1 
+
+pfi-olt-00(config-if-gpon-0/1)#ont add 0 5          sn-auth 48575443E50791A6 omc [1Di ont-lineprofile-id  9  ont-srvprofile-id 4 desc '25349' 
+  Number of ONTs that can be added: 1, success: 1
+  PortID :0, ONTID :5
+
+pfi-olt-00(config-if-gpon-0/1)#ont tr069-server-config 0 5          profile-id 1 [1D 
+
+pfi-olt-00(config-if-gpon-0/1)#
+
+pfi-olt-00(config-if-gpon-0/1)#ont reset 0 5         
+  Failure: The ONT is not online
+
+pfi-olt-00(config-if-gpon-0/1)#quit 
+
+pfi-olt-00(config)#interface gpon 0/1 
+
+pfi-olt-00(config-if-gpon-0/1)#ont add 0 2          sn-auth 48575443E50BDEA6 omc [1Di ont-lineprofile-id  9  ont-srvprofile-id 4 desc '25346' 
+  Number of ONTs that can be added: 1, success: 1
+  PortID :0, ONTID :2
+
+pfi-olt-00(config-if-gpon-0/1)#ont tr069-server-config 0 2          profile-id 1 [1D 
+
+pfi-olt-00(config-if-gpon-0/1)#
+
+pfi-olt-00(config-if-gpon-0/1)#ont reset 0 2         
+  Failure: The ONT is not online
+
+pfi-olt-00(config-if-gpon-0/1)#quit 
+
+pfi-olt-00(config)#quit 
+
+pfi-olt-00#
+DEBUG:paramiko.transport:starting thread (client mode): 0x86c605b0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.2
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0--
+INFO:paramiko.transport:Connected (version 2.0, client -)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha256'] server key:['rsa-sha2-512', 'rsa-sha2-256', 'ssh-rsa', 'x509v3-ssh-rsa'] client encrypt:['AEAD_AES_256_GCM', 'aes256-gcm@openssh.com', 'AEAD_AES_128_GCM', 'aes128-gcm@openssh.com', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr'] server encrypt:['AEAD_AES_256_GCM', 'aes256-gcm@openssh.com', 'AEAD_AES_128_GCM', 'aes128-gcm@openssh.com', 'aes256-ctr', 'aes192-ctr', 'aes128-ctr'] client mac:['hmac-sha2-512', 'hmac-sha2-256'] server mac:['hmac-sha2-512', 'hmac-sha2-256'] client compress:['none', 'zlib'] server compress:['none', 'zlib'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha256
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:kex engine KexGexSHA256 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 10.125.20.183: b'bdce992d96a0fe99515b6f22b71b7056'
+DEBUG:paramiko.transport:Trying discovered key b'6fdd53bfec956e15acf063a1e917d43c' in /home/cantv/.ssh/id_rsa
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (publickey) failed.
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Auth banner: b'\r\nWarning: Negotiated identity key for server authentication is not safe. It is recommended that you disable the insecure algorithm or upgrade the client.\r\n'
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:root:fallo
