@@ -14,6 +14,7 @@ import requests
 from db import engine
 from sqlalchemy import text
 from zeep import Client
+from crm import actualizar
 
 #ips del olt traidas desde la ejecucion del archivo disparador.sh
 ip_olt = '10.125.20.183'
@@ -156,6 +157,8 @@ try:
 
                 sql = text('UPDATE ordens SET descripcion= :descripcion,status= :status WHERE serial_modem= :serial_modem')
                 query = connection.execute(sql, {'descripcion': 'error: aaa,serviceport,ont_id','status': 2,'serial_modem': serial_modem})
+
+                
 
             elif response_aaa==1 and response_ont==0 and response_serviceport==0:
                 
