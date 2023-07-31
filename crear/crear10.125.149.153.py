@@ -1,18 +1,11 @@
-import paramiko
+#!/usr/bin/env python3
 import time
-from getpass import getpass
-import sys
-import numpy
-from pathlib import Path
-from xml.etree import ElementTree
-import xmltodict
-import json
 import logging
 from datetime import datetime as dt
 import socket
-import requests
 from db import engine
 from sqlalchemy import text
+from aprovisionar import *
 
 #ips del olt traidas desde la ejecucion del archivo disparador.sh
 ip_olt = '10.125.149.153'
@@ -34,7 +27,7 @@ try:
         query = connection.execute(sql, {'ip_olt': ip_olt})
         ordenes = [list(row) for row in query]
 
-        if len(ordenes)==2 :
+        if len(ordenes)>=2 :
             array = numpy.array(ordenes)
             result_rows, result_columns = array.shape#saber tamaño de columanas y filas del array
 

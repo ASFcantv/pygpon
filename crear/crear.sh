@@ -1,3 +1,5 @@
+#!/bin/sh
+
 python3 crear10.125.58.146.py &&
 python3 crear10.125.58.147.py &&
 python3 crear10.125.102.200.py &&
@@ -10,7 +12,7 @@ python3 crear10.125.120.220.py &&
 python3 crear10.125.138.225.py &&
 python3 crear10.125.126.88.py &&
 python3 crear10.125.126.89.py &&
-python3 crear10.125.58.142.py &&
+#python3 crear10.125.58.142.py &&
 python3 crear10.125.42.174.py &&
 python3 crear10.125.58.151.py &&
 python3 crear10.125.126.94.py &&
