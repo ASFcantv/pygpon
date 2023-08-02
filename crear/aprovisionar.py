@@ -42,7 +42,7 @@ class aprovisionar:
                 effectTime=now.strftime("%Y%m%d")+'000000'
                 timeStampSN=now.strftime("%Y%m%d")+'0000000001010101'
         
-                url = "http://200.44.45.149/api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo="+numero_identificador+"&payAccount=0&productID="+product_id+"&sequenceId=0&serialNo=0&subscriberID="+subscriberid+"&serial_modem="+serial_modem
+                url = "http://200.44.45.149/api/ApiCrearNuevoSuscriptor?IMSI="+imsi+"&contactTeleNo="+numero_identificador+"&payAccount=0&productID="+product_id+"&sequenceId=0&serialNo=0&subscriberID="+subscriberid+"&serial_modem="+serial_modem
                 try:
                     crear_aaa=requests.request("POST", url)
                     logging.debug(crear_aaa) 
@@ -185,7 +185,7 @@ class aprovisionar:
                 effectTime=now.strftime("%Y%m%d")+'000000'
                 timeStampSN=now.strftime("%Y%m%d")+'0000000001010101'
         
-                url = "http://200.44.45.149/api/ApiCrearNuevoSuscriptor?IMSI=J296692343&contactTeleNo="+numero_identificador+"&payAccount=0&productID="+product_id+"&sequenceId=0&serialNo=0&subscriberID="+subscriberid+"&serial_modem="+serial_modem
+                url = "http://200.44.45.149/api/ApiCrearNuevoSuscriptor?IMSI="+imsi+"&contactTeleNo="+numero_identificador+"&payAccount=0&productID="+product_id+"&sequenceId=0&serialNo=0&subscriberID="+subscriberid+"&serial_modem="+serial_modem
                 try:
                     crear_aaa=requests.request("POST", url)
                     logging.debug(crear_aaa) 
